@@ -1,7 +1,7 @@
 'use strict';
 
 const supertest = require('supertest');
-const app = require('../server.js');
+const app = require('../index.js');
 const request = supertest(app); // provide express 'app' singleton;
 
 describe('Testing our HTTP Server', () => {
